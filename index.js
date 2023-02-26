@@ -25,7 +25,7 @@ const questions = [
   {
     type: 'input',
     name: 'Contributors',
-    message: "Provide any contributors. (Add GitHub usernames)",
+    message: "Provide any contributors.",
 },
 {
   type: "input",
@@ -40,7 +40,7 @@ const questions = [
 {
   type: "input",
   message: "What is your full name?",
-  name: "Name",
+  name: "name",
 },
   {
     type: 'input',

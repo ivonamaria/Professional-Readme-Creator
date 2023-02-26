@@ -1,4 +1,30 @@
+// Functions returns chosen license badge
+function renderLicenseBadge(license) {
+  if (license !== 'none') {
+    return `![Github license](https://img.shields.io/badge/license-${license}-yellowgreen.svg)`;
+  }
+  return "";
+}
+// Function returns the license link
+function renderLicenseLink(license){
+  if (license !== 'none') {
+    return `\n [License](#license)\n`
+  }
+  return "";
+}
+// Function returns the license section of README
+function renderLicenseSection(license){
+  if (license !== 'none') {
+    return `## License
+    
+Licensed under the ${license} license.`;
+  }
+  return "";
+}
+
+
 function generateMarkdown(data) {
+  // Template literal that generates the Markdown for the README file
   return `# ${data.title}
 by ${data.name}
 ${renderLicenseBadge(data.license)}
@@ -14,7 +40,7 @@ ${data.description}
 - [Contributors](#contributors)
 - [Tests](#tests)
 - [Questions](#questions)
-- [License](#license)
+${renderLicenseLink(data.license)}
 
 ## Installation
 
@@ -36,9 +62,7 @@ ${data.test}
 
 If you have any questions, you can contact the author at [${data.Email}](mailto:${data.Email}) or visit their GitHub profile: [${data.User}](https://github.com/${data.User}).
 
-## License
-
-This project is licensed under the ${data.license} license.
+${renderLicenseSection(data.license)}
 `;
 }
 
