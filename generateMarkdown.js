@@ -26,6 +26,7 @@ Licensed under the ${license} license.`;
 function generateMarkdown(data) {
   // Template literal that generates the Markdown for the README file
   return `# ${data.title}
+  
 by ${data.name}
 ${renderLicenseBadge(data.license)}
 

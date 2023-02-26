@@ -1,7 +1,6 @@
 // packages for application
 const fs = require("fs");
 const path = require('path');
-// import inquirer from "inquirer";
 const inquirer = require('inquirer');
 const generateMarkdown = require("./generateMarkdown");
 
