@@ -1,5 +1,7 @@
 function generateMarkdown(data) {
   return `# ${data.title}
+by ${data.name}
+${renderLicenseBadge(data.license)}
 
 ## Description
 

@@ -37,6 +37,11 @@ const questions = [
   message: "What is your email address?",
   name: "Email",
 },
+{
+  type: "input",
+  message: "What is your full name?",
+  name: "Name",
+},
   {
     type: 'input',
     name: 'installation',
