@@ -1,10 +1,12 @@
 // Functions returns chosen license badge
 function renderLicenseBadge(license) {
   if (license !== 'none') {
-    return `![Github license](https://img.shields.io/badge/license-${license}-yellowgreen.svg)`;
+    const licenseSlug = license.replace(/ /g, '-').toLowerCase();
+    return `![Github license](https://img.shields.io/npm/l/inquirer?logoColor=blueviolet&style=plastic)`;
   }
   return "";
 }
+
 // Function returns the license link
 function renderLicenseLink(license){
   if (license !== 'none') {
@@ -21,7 +23,6 @@ Licensed under the ${license} license.`;
   }
   return "";
 }
-
 
 function generateMarkdown(data) {
   // Template literal that generates the Markdown for the README file
