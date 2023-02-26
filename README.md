@@ -20,6 +20,7 @@ JavaScript, Node.js, JSON
 # Credits
 
 https://stackoverflow.com/ 
+
 https://shields.io/category/license
 
 
@@ -30,4 +31,3 @@ N/A
 # License
 
 The application is licensed under the MIT License.
-
