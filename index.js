@@ -19,13 +19,23 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'Technologies',
-    message: "Please state the Technologies used in your project?",
+    name: 'Usage',
+    message: "Provide the technologies used in your project?",
+},
+  {
+    type: 'input',
+    name: 'Contributors',
+    message: "Provide any contributors. (Add GitHub usernames)",
 },
 {
   type: "input",
-  message: "What is your Github respository link?",
-  name: "RepositoryLink",
+  message: "What is your Github username?",
+  name: "User",
+},
+{
+  type: "input",
+  message: "What is your email address?",
+  name: "Email",
 },
   {
     type: 'input',
@@ -37,9 +47,14 @@ const questions = [
     message: 'Please choose a license for your project:',
     name: 'license',
     choices: ["None", "Apache License 2.0", "MIT License",
-        "BSD 2-Clause License", "BSD 3-Clause License", 
-        "Boost Software License 1.0", "Creative Commons Zero v1.0 Universal",
-        "GNU Affero General Public License v3.0", "GNU General Public License v2.0", "Mozilla Public License 2.0", "The Unlicense"]
+    "BSD 2-Clause License", "BSD 3-Clause License", 
+    "Boost Software License 1.0", "Creative Commons Zero v1.0 Universal",
+    "GNU Affero General Public License v3.0", "GNU General Public License v2.0", "Mozilla Public License 2.0", "The Unlicense"]
+  },
+  {
+    type: 'input',
+    name: 'test',
+    message: 'Provide walkthrough of the required tests if applicable',
   },
   {
     type: 'input',
