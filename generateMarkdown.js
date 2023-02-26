@@ -1,8 +1,7 @@
 // Functions returns chosen license badge
 function renderLicenseBadge(license) {
   if (license !== 'none') {
-    const licenseSlug = license.replace(/ /g, '-').toLowerCase();
-    return `![Github license](https://img.shields.io/npm/l/inquirer?logoColor=blueviolet&style=plastic)`;
+    return `![Github license](https://img.shields.io/npm/l/usuals?logoColor=green&style=plastic)`;
   }
   return "";
 }
