@@ -8,8 +8,9 @@ JavaScript, Node.js, JSON
 
 # Links
 
-[Video Link Of The Application](https://youtu.be/fy0YoNg4zXQ)
-[Repository Link](https://github.com/ivonamaria/Professional-Readme-Creator)
+Please click on the link - [Video Link Of The Application](https://youtu.be/fy0YoNg4zXQ)
+
+Please click on the link - [Repository Link](https://github.com/ivonamaria/Professional-Readme-Creator)
 
 # Screenshots
 
@@ -20,7 +21,6 @@ JavaScript, Node.js, JSON
 # Credits
 
 https://stackoverflow.com/ 
-
 https://shields.io/category/license
 
 
