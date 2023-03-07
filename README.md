@@ -8,6 +8,8 @@ JavaScript, Node.js, JSON
 
 # Links
 
+Please click on the link - [Sample README Link](https://github.com/ivonamaria/Professional-Readme-Creator/blob/main/README-OUTPUT.md)
+
 Please click on the link - [Video Link Of The Application](https://youtu.be/fy0YoNg4zXQ)
 
 Please click on the link - [Repository Link](https://github.com/ivonamaria/Professional-Readme-Creator)
